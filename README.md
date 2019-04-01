@@ -12,7 +12,7 @@ usage: cosupload -url $BucketURL -sd $SecretID -sk $SecretKEY -fnm $FileNAME -fd
 -enc   encrypt the string will use as encrypt secretid or secretkey
 -fdir  the upload file dir and file name in the system
 
-eg 1:<br>
+eg 1:
        cosupload -url https://********* -sd ****** -sk ****** -fnm /APP_BACKUP/test/test.tar.gz -fdir /usr/local/test.tar.gz<br>
 eg 2:
        ssecretid=`cosupload-v1 -enc secretid`; ssecretkey=`cosupload-v1 -enc secretkey`<br>
